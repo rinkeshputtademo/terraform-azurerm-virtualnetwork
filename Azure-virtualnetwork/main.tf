@@ -9,6 +9,12 @@ resource "azurerm_resource_group" "training123" {
   location = var.location
 }
 
+resource "azurerm_resource_group" "training1245" {
+  name     = "${var.env}-${var.client}-training12443-india"
+  location = var.location
+}
+
+
 
 
 resource "azurerm_storage_account" "trainingstorage" {
