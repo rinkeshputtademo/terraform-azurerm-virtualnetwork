@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "training123" {
   location = var.location
 }
 
-
+//this is just a comment
 
 resource "azurerm_storage_account" "trainingstorage" {
   name                     = var.storagename
